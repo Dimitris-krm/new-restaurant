@@ -1,5 +1,6 @@
 <template>
-    <p class="font-bold">Dietary Preferences:</p>
+  <div class="hidden md:block">
+  <p class="font-bold">Dietary Preferences:</p>
 
 <div class="form-control">
   <label class="label cursor-pointer">
@@ -110,4 +111,5 @@
 
 <br>
 <button class="btn-wide btn-success capitalize">Clear filters</button>
+</div>
 </template>
