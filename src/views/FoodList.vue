@@ -33,7 +33,7 @@ fetch(dishMenu)
     <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-10">
 
 
-    <Food v-for="dish in dishes" :key="dish.id" :id="dish.id" :image="dish.image" :price="dish.price" :name="dish.name" :description="dish.description"></Food>
+    <Food v-for="dish in dishes" :key="dish.id" :dish="dish" ></Food>
 
  
  </div>

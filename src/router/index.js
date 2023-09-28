@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FoodList from "../views/FoodList.vue"
 import Dish from "../views/Dish.vue"
+import Cart from "../views/Cart.vue"
 import InvalidURL from "../views/InvalidURL.vue"
 
 
@@ -11,13 +12,25 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: FoodList
+      component: HomeView
     },
     {
-      path:"/:dish",
+      path: '/cart',
+      name: 'cart',
+      component: Cart
+    },
+    {
+      path:"/dishes",
+      name:"dishes",
+      component:FoodList
+    },
+
+    {
+      path:"/dishes/:dish",
       name:"dish",
       component:Dish
     },
+
     {
       path:"/:catchAll(.*)",
       name: "InvalidURL",

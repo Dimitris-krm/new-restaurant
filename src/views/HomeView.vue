@@ -2,7 +2,5 @@
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<p class="text-3xl font-bold">Welcome to YummyGreek</p>
 </template>

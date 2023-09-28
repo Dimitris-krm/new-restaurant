@@ -19,3 +19,11 @@ import Filters from "./components/Filters.vue"
 </Suspense>
 
 </template>
+
+<!-- TODO -->
+<!-- @ Update nav bar cart on add card -->
+<!-- @ Add cart functionality on specific dish -->
+<!-- @ Add go back button on specific dish  -->
+<!-- @ Working filters -->
+<!-- @ Cart page -->
+<!-- @ Order page -->
