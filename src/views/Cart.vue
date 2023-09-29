@@ -65,12 +65,11 @@ async function createNewOrder() {
     cartStore.resetCart();
   } catch (error) {
     if(error.message ==="empty"){
-        console.log('hey')
+
 
         cartMessage.value = "No items in cart";
         toastReason.value = "error";
-        console.log(cartMessage.value)
-        console.log(toastReason.value)
+
         triggerToast()
     }
     else
