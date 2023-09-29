@@ -1,6 +1,5 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-<p class="text-3xl font-bold">Welcome to YummyGreek</p>
+  <p class="text-3xl font-bold">Welcome to YummyGreek</p>
 </template>
